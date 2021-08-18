@@ -1,0 +1,11 @@
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 15px;
+  height: 100%;
+}
+
+.contact-title {
+  margin-top: 15px;
+}

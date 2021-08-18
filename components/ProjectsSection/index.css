@@ -1,0 +1,26 @@
+.projects-section {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.project {
+  cursor: pointer;
+}
+
+.project-image {
+  width: 225px;
+}
+
+.projects-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  row-gap: 25px;
+  column-gap: 25px;
+}
+
+.project-name {
+  font-weight: 600;
+  text-align: center;
+}

@@ -1,0 +1,26 @@
+.nav-item-icon {
+  width: 25px;
+}
+
+.nav-item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+  column-gap: 2px;
+  width: 130px;
+  cursor: pointer;
+  border-radius: 7px;
+  border: 0.1px solid transparent;
+  background: transparent;
+  transition: background 0.3s ease;
+}
+
+.active-section {
+  background: #b4dbda;
+  border: 0.1px solid #f0f0f0;
+}
+
+.nav-item:hover {
+  background: #c5dbda;
+}

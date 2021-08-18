@@ -1,0 +1,23 @@
+.home-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 25px;
+  text-align: center;
+  height: 100%;
+}
+
+.dev-role,
+.experiences {
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.resume-btn {
+  padding: 8px;
+  font-weight: 500px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
